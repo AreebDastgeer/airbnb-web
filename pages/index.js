@@ -8,11 +8,10 @@ import { Home } from '../components/components/home.js';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Index() {
-    return (
+  return (
     <div className="bg-white">
-
       <Navbar />
-      <Home   />
+      <Home />
       <Footer />
     </div>
 

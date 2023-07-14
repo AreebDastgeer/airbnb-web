@@ -1,10 +1,10 @@
-import Image from 'next/image' 
+import Image from 'next/image'
 import React from 'react';
 
- function Home() {
-    return (
-        <div className="bg-white">
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
+function Home() {
+  return (
+    <div className="bg-white">
+      <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
         <div>
           <Image src="/assests/image.webp" alt="No Img..." width={100} height={300}
             layout="responsive"
@@ -32,7 +32,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/1st.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/1st.webp"
                     style={{ width: '100%' }}    ></Image>
                 </div>
               </div>
@@ -45,7 +45,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/4th.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/4th.webp"
                     style={{ width: '100%' }}
 
                   ></Image>
@@ -63,7 +63,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/7th.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/7th.webp"
                     style={{ width: '100%' }}    ></Image>
 
 
@@ -79,8 +79,8 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/2nd.webp" 
-                  
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/2nd.webp"
+
                     style={{ width: '100%' }}    ></Image>
                 </div>
               </div>
@@ -93,8 +93,8 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/5th.webp" 
-                  
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/5th.webp"
+
                     style={{ width: '100%' }}  ></Image>
 
 
@@ -110,7 +110,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/8th.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/8th.webp"
                     style={{ width: '100%' }}  ></Image>
 
 
@@ -125,7 +125,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/3rd.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/3rd.webp"
                     style={{ width: '100%' }}  ></Image>
 
 
@@ -140,7 +140,7 @@ import React from 'react';
               className="flex items-center m-2 mt-5 space-x-4 rounded-xl  cursor-pointer hover:bg-gray-100 hover:scale-105  transition transfrom duration-200 ease-out">
               <div className="relative h-16 w-16">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/6th.webp" 
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/6th.webp"
                     style={{ width: '100%' }}  ></Image>
                 </div>
               </div>
@@ -157,7 +157,7 @@ import React from 'react';
             <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
               <div className=" relative h-80 w-80">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/first.webp"
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/first.webp"
                     style={{ width: '100%' }}  ></Image>
                 </div>
               </div>
@@ -166,7 +166,7 @@ import React from 'react';
             <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
               <div className="relative h-80 w-80">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/second.webp"
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/second.webp"
                     style={{ width: '100%' }}  ></Image>
                 </div>
               </div>
@@ -175,7 +175,7 @@ import React from 'react';
             <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
               <div className=" relative h-80 w-80">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/third.webp"
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/third.webp"
                     style={{ width: '100%' }}  ></Image>
                 </div>
               </div>
@@ -184,7 +184,7 @@ import React from 'react';
             <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
               <div className=" relative h-80 w-80">
                 <div>
-                  <Image className= " rounded-lg" alt="No Img..." width={100} height={300} src="/assests/fourth.webp"
+                  <Image className=" rounded-lg" alt="No Img..." width={100} height={300} src="/assests/fourth.webp"
                     style={{ width: '100%' }}  ></Image>
                 </div>
               </div>
@@ -210,7 +210,7 @@ import React from 'react';
           </div>
         </section>
       </main>
-      </div>
-    );
+    </div>
+  );
 }
-export  {Home};
+export { Home };
