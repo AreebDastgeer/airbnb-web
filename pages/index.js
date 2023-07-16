@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Index() {
   return (
-    <div className="bg-white">
+    <div className='bg-white'>
       <Navbar />
       <Home />
       <Footer />
@@ -18,7 +18,7 @@ export default function Index() {
           background:none;
         }
       `}</style>
-      
+
     </div>
   )
 }
