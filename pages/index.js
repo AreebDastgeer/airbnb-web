@@ -13,7 +13,12 @@ export default function Index() {
       <Navbar />
       <Home />
       <Footer />
+      <style jsx global>{`
+        body {
+          background:none;
+        }
+      `}</style>
+      
     </div>
-
   )
 }
