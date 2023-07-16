@@ -1,7 +1,7 @@
 import { FaAirbnb, FaBars, FaGlobe, FaSearch, FaUser } from 'react-icons/fa';
 import { useState } from 'react';
 import { DateRangePicker } from 'react-date-range';
-import 'react-date-range/dist/theme/style.css';
+import 'react-date-range/dist/style.css';
 import 'react-date-range/dist/theme/default.css';
 import { addDays } from 'date-fns';
 
