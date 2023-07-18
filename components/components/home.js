@@ -6,7 +6,7 @@ function Home() {
     <div className=' bg-white'>
       <div className='relative h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px] '>
       <div className='block overflow-hidden absolute top-0 left-0 bottom-0 right-0 box-border m-0' >
-    <Image className='object-cover' src="/assests/image.webp" alt="No Img..." width={100} height={300} layout="responsive" quality={100} style={{ width: '100%' }} >
+    <Image className='object-cover ' src="/assests/image.webp" alt="No Img..." width={500} height={100} quality={90} style={{ width: '100%' }} >
     </Image>
   </div>
   <div className='absolute max-[400px]:top-1/3 top-1/2 w-full text-center'>
@@ -159,12 +159,11 @@ function Home() {
   <div className='relative h-40 md:h-80 lg:h-96 min-w-[300px] '>
     <div className='relative h-full  max-[320px]:w-11/12 w-full '>
       <Image
-        className='rounded-2xl object-cover'
+        className='rounded-2xl object-cover '
         alt="No Img..."
-        width={100}
-        height={300}
+        width={950}
+        height={400}
         src="/assests/footer.webp"
-        layout="responsive"
         quality={100}
       />
     </div>
